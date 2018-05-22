@@ -16,8 +16,8 @@ void main()
 	{
 		// Известно, что X кг конфет стоит A рублей. Определить, сколько стоит 1 кг и Y кг этих же конфет.
 
-		int X, A, y, b;
-		printf("X=\t A=\t");
+		int X, A=0, y=0, b;
+		printf("X=\n A=\t");
 		scanf("%d\t %d\n", &X, &A);
 
 		b = A / X;
@@ -30,6 +30,8 @@ void main()
 		// Решить линейное уравнение A·x + B = 0, заданное своими коэффициентами A и B (коэффициент A не равен 0)
 
 		int A, x=0, B=0;
+		printf("vvedite  A=");
+		scanf("%d", &A);
 		printf("vvedite  B=");
 		scanf("%d", &B);
 
