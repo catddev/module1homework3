@@ -16,9 +16,15 @@ void main()
 	{
 		// Известно, что X кг конфет стоит A рублей. Определить, сколько стоит 1 кг и Y кг этих же конфет.
 
-		int X, A=0, y=0, b;
-		printf("X=\n A=\t");
-		scanf("%d\t %d\n", &X, &A);
+		int X=0, A=0, y=0, b=0;
+		printf("X=\t");
+		scanf("%d", &X);
+
+		printf("A=\t");
+		scanf("%d", &A);
+
+		printf("y=\t");
+		scanf("%d", &y);
 
 		b = A / X;
 		y = y*b;
