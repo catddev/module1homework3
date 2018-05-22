@@ -8,6 +8,8 @@ void main()
 
 
 	int n = 0;
+	printf("введите нз: ");
+	scanf("%d", &n);
 
 
 	if (n == 1)
@@ -24,16 +26,19 @@ void main()
 		printf("стоимость 1 кг =%d\n стоимость Y кг=%d\n", b, y);
 
 	}
-
 	else if (n == 2) {
+		// Решить линейное уравнение A·x + B = 0, заданное своими коэффициентами A и B (коэффициент A не равен 0)
+
+		int A, x=0, B=0;
+		printf("vvedite  B=");
+		scanf("%d", &B);
+
+		x = -B / A;
+
+		printf("x=%d\n", x);
+
 
 	}
 
 
-	else {
-
-		printf("нет заданий");
-
-	}
-	
 }
